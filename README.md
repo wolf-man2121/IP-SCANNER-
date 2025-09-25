@@ -1,4 +1,4 @@
--SCANNER-
+IP-SCANNER-
 
 A simple Python IP & Port Scanner that finds open ports and their services.
 
@@ -14,16 +14,16 @@ FEATURES
 ----------------------------------------
 INSTALLATION
 ----------------------------------------
-git clone 
+git clone https://github.com/wolf-man2121/IP-SCANNER-.git
 
 ----------------------------------------
 USING
 ----------------------------------------
 1. Run the scanner:
-   python port_scanner.py
+   python port_scanner.py 
 
 2. Enter the target IP when prompted:
-   Enter target IP: 192.168.1.5
+   Enter your target IP :example 192.168.1.5
 
 3. The scanner will check ports from 1 to 1024 by default
 
