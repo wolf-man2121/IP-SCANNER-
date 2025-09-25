@@ -1,27 +1,41 @@
-# IP
 -SCANNER-
-A simple Python ip scanner that finds open ports and their services.
 
-Features
+A simple Python IP & Port Scanner that finds open ports and their services.
 
-Scan ports from 1 to 1024 (can be adjusted in the code).
+----------------------------------------
+FEATURES
+----------------------------------------
+- Scan ports from 1 to 1024 (can be adjusted in the code)
+- Identify open ports and their common services
+- Show a summary of all open ports found
+- Display total scan duration
+- No external libraries required
 
-Identify open ports and their common services.
+----------------------------------------
+INSTALLATION
+----------------------------------------
+git clone 
 
-Show a summary of all open ports found.
+----------------------------------------
+USING
+----------------------------------------
+1. Run the scanner:
+   python port_scanner.py
 
-Display total scan duration.
+2. Enter the target IP when prompted:
+   Enter target IP: 192.168.1.5
 
-Requirements
+3. The scanner will check ports from 1 to 1024 by default
 
-Python 3.x
+4. The output will display:
+   - Open ports
+   - Common service names
+   - Total scan duration
 
-No external libraries required
+----------------------------------------
+OPTIONAL
+----------------------------------------
+- To change the port range, edit the script:
+   start_port = 1
+   end_port = 1024
 
-How to Use
-
-Save the script as port_scanner.py.
-
-Open a terminal or command prompt.
-
-Run the script:
